@@ -55,8 +55,8 @@ for i in filepaths:
     pdf.cell(w=30, h=8, txt=f"The total price is {total_sum}.", ln=1)
 
     pdf.set_font(family="Times", style="B", size=14)
-    pdf.cell(w=30, h=8, txt=f"PythonHow")
-    pdf.image("pythonhow.png")
+    pdf.cell(w=25, h=8, txt=f"PythonHow")
+    pdf.image("pythonhow.png",w=10)
 
 
     pdf.output(f"PDFs/{filename}.pdf")
